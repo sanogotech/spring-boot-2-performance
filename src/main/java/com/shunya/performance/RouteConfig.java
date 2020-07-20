@@ -17,11 +17,12 @@ public class RouteConfig {
 	//https://www.baeldung.com/spring-webclient-resttemplate
 	//WebClient Non-Blocking Client
 	// RestTemplate Blocking Client
+	/*
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
    // Do any additional configuration here
    return builder.build();
-	}
+	}*/
 
     @Bean
     public RouterFunction<?> routerFunction(HelloController testController) {
